@@ -1,0 +1,12 @@
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/bin/Debug/net8.0/Floricultura.Domain.deps.json
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/bin/Debug/net8.0/Floricultura.Domain.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/bin/Debug/net8.0/Floricultura.Domain.pdb
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.AssemblyInfoInputs.cache
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.AssemblyInfo.cs
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.csproj.CoreCompileInputs.cache
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.sourcelink.json
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/refint/Floricultura.Domain.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/Floricultura.Domain.pdb
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Domain/obj/Debug/net8.0/ref/Floricultura.Domain.dll

@@ -1,0 +1,16 @@
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.csproj.AssemblyReference.cache
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.AssemblyInfoInputs.cache
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.AssemblyInfo.cs
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.csproj.CoreCompileInputs.cache
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.sourcelink.json
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/bin/Debug/net8.0/Floricultura.Application.deps.json
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/bin/Debug/net8.0/Floricultura.Application.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/bin/Debug/net8.0/Floricultura.Application.pdb
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/bin/Debug/net8.0/Floricultura.Domain.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/bin/Debug/net8.0/Floricultura.Domain.pdb
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricul.E52C158A.Up2Date
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/refint/Floricultura.Application.dll
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/Floricultura.Application.pdb
+/workspaces/TrabalhoDesenvolvimento/Floricultura/Floricultura/Floricultura.Application/obj/Debug/net8.0/ref/Floricultura.Application.dll
