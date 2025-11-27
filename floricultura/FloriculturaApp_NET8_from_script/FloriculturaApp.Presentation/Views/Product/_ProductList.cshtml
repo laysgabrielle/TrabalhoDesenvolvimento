@@ -1,0 +1,40 @@
+@model List<ProductDto>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">
+                            <strong>Preço:</strong> R$ @product.Price.ToString("F2")
+                        </p>
+                        <p class="card-text">
+                            <strong>Categoria ID:</strong> @product.CategoryId
+                        </p>
+                        <div class="mt-3">
+                            <a href="/Product/Details/@product.Id" class="btn btn-sm btn-info">
+                                👁️ Ver Detalhes
+                            </a>
+                            <a href="/Product/Edit/@product.Id" class="btn btn-sm btn-warning">
+                                ✏️ Editar
+                            </a>
+                            <a href="/Product/Delete/@product.Id" class="btn btn-sm btn-danger">
+                                🗑️ Deletar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-info text-center" role="alert">
+        Nenhuma flor encontrada com os critérios de busca.
+    </div>
+}

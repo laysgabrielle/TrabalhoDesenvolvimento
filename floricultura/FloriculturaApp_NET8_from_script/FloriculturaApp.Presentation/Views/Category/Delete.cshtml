@@ -1,0 +1,38 @@
+@model CategoryDto
+@{
+    ViewData["Title"] = "Deletar Categoria";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="mb-4 text-danger">🗑️ Deletar Categoria</h1>
+
+            <div class="alert alert-warning" role="alert">
+                <strong>Atenção!</strong> Você está prestes a deletar a categoria "@Model.Name". Esta ação não pode ser desfeita.
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <strong>Nome:</strong> @Model.Name
+                    </p>
+                </div>
+            </div>
+
+            <form asp-action="Delete" method="post" class="mt-4">
+                <input type="hidden" asp-for="Id" />
+                
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-danger">
+                        ✓ Confirmar Exclusão
+                    </button>
+                    <a href="/Category" class="btn btn-secondary">
+                        ❌ Cancelar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

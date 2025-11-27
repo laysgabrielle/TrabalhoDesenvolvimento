@@ -1,0 +1,40 @@
+@model ProductDto
+@{
+    ViewData["Title"] = "Detalhes da Flor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="mb-4">👁️ Detalhes da Flor</h1>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Name</h5>
+                    <p class="card-text">
+                        <strong>ID:</strong> @Model.Id
+                    </p>
+                    <p class="card-text">
+                        <strong>Preço:</strong> R$ @Model.Price.ToString("F2")
+                    </p>
+                    <p class="card-text">
+                        <strong>Categoria ID:</strong> @Model.CategoryId
+                    </p>
+
+                    <div class="mt-4">
+                        <a href="/Product/Edit/@Model.Id" class="btn btn-warning">
+                            ✏️ Editar
+                        </a>
+                        <a href="/Product/Delete/@Model.Id" class="btn btn-danger">
+                            🗑️ Deletar
+                        </a>
+                        <a href="/Product" class="btn btn-secondary">
+                            ↩️ Voltar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

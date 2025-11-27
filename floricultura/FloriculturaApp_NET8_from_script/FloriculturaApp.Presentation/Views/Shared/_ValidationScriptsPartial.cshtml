@@ -1,0 +1,11 @@
+@*
+    For more information on enabling client-side validation, visit https://go.microsoft.com/fwlink/?LinkID=159316
+*@
+
+@if (this.Context.Request.Form.Files.Count > 0)
+{
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+}
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>

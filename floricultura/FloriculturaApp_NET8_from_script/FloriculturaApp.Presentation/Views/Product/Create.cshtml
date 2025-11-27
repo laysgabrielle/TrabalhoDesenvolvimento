@@ -1,0 +1,53 @@
+@model ProductDto
+@{
+    ViewData["Title"] = "Criar Flor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="mb-4">➕ Adicionar Nova Flor</h1>
+
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Nome da Flor *</label>
+                    <input asp-for="Name" class="form-control" placeholder="Ex: Rosa Vermelha">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label">Preço (R$) *</label>
+                    <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="Ex: 29.90">
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CategoryId" class="form-label">Categoria *</label>
+                    <select asp-for="CategoryId" class="form-select">
+                        <option value="">-- Selecione uma categoria --</option>
+                        @if (ViewBag.Categories != null)
+                        {
+                            @foreach (var category in ViewBag.Categories)
+                            {
+                                <option value="@category.Id">@category.Name</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary-custom btn-custom">💾 Salvar</button>
+                    <a href="/Product" class="btn btn-secondary btn-custom">❌ Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
